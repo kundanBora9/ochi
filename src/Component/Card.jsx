@@ -3,7 +3,7 @@ import React from 'react'
 function Card() {
 
   return (
-    <div data-scroll  data-scroll-section  data-scroll-speed="-.9" className='mainCards Cardss w-full h-screen bg-zinc-100 flex items-center px-10 gap-5'>
+    <div data-scroll  data-scroll-section  data-scroll-stop className='mainCards Cardss w-full h-screen bg-zinc-100 flex items-center px-10 gap-5'>
         <div className='cardcontainer w-2/3 h-[60vh]'>
            <div className=' relative card w-full h-full  rounded-xl bg-[#004D43] flex justify-center items-center'>
                 <img className='text-[#CDEA68]' src="https://ochi.design/wp-content/uploads/2022/04/logo001.svg" alt="" />

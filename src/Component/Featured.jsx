@@ -10,7 +10,7 @@ function Featured() {
     card[index].start({y:"100%"})
   }
   return (
-    <div data-scroll data-scroll-section data-scroll-speed=".1" className="w-full  py-20  bg-zinc-900">
+    <div  className="w-full  py-20  bg-zinc-900">
       <div className="w-full px-20 border-b-[1px] border-zinc-700 pb-10">
         <h2 className='text-7xl font-["NeueMontreal-Regular (1)"] tracking-tight '>
           Featured projects
